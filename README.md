@@ -4,7 +4,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## ![tableOfContent][tableofcontent-shield] Table of Contents
+## Table of Contents
 
 | CODE RUN                   | CONTACT                         |
 | -------------------------- | ------------------------------- |
@@ -14,7 +14,7 @@
 
 <!-- HOW TO RUN -->
 
-## ![rocketIcon][rocketicon-shield] How to run
+##  How to run
 
 Please follow the below instructions to run this branch in your machine:
 
