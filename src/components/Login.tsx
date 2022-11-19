@@ -1,11 +1,10 @@
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/extensions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import { useState } from 'react';
 import LoginForm from './LoginForm';
 import SignUpForm from './SignUpForm';
 
 function Login() {
-  const [loginTab, setLoginTab] = useState(true);
+  const [loginTab, setLoginTab] = useState<boolean>(true);
 
   return (
     <div className=" login">
@@ -29,7 +28,7 @@ function Login() {
           </span>
         </div>
 
-        {loginTab ? <LoginForm /> : <SignUpForm />}
+        {loginTab ? <LoginForm /> : <SignUpForm setLoginTab={setLoginTab} />}
       </div>
     </div>
   );
