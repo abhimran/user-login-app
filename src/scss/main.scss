@@ -1,0 +1,61 @@
+@use 'variables' as *;
+@use 'login';
+// @use 'mixin';
+// @forward './mixin';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: $font-family;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: $body-bg;
+  color: $txt-color;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+button,
+input {
+  outline: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+}
+
+// Common class
+.ms-2 {
+  margin-left: 2px;
+}
+
+.ms-5 {
+  margin-left: 5px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
