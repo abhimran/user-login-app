@@ -64,6 +64,28 @@
       }
     }
 
+    .reset-password {
+      font-size: 28px;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .back-login {
+      margin-top: 15px;
+      a {
+        border-bottom: 1px solid $hover-color;
+      }
+    }
+
+    .error-block {
+      padding: 8px 15px;
+      background: $hover-color;
+      margin-top: 30px;
+      color: $white;
+      border-radius: 15px;
+    }
+
     .forgot-password {
       margin-top: 20px;
 
