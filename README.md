@@ -38,5 +38,11 @@ Please follow the below instructions to run this branch in your machine:
 <!-- CONTACT  -->
 
 ##  Contact with me
+
+[![LinkedIn]][linkedin-url]
+[![mail]][mail-url]
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
 [linkedin-url]: https://www.linkedin.com/in/abhimran/
 [mail-url]: abhimrann@gmail.com
