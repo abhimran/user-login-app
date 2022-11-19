@@ -21,6 +21,7 @@ Please follow the below instructions to run this branch in your machine:
 1. Clone this repository -
    ```sh
    git clone https://github.com/abhimran/user-login-app.git
+   
    ```
 2. Install dependencies
    ```sh
@@ -36,12 +37,6 @@ Please follow the below instructions to run this branch in your machine:
 
 <!-- CONTACT  -->
 
-## ![contactIcon][contacticon-shield] Contact with me
-
-[![LinkedIn]][linkedin-url]
-[![mail]][mail-url]
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
+##  Contact with me
 [linkedin-url]: https://www.linkedin.com/in/abhimran/
 [mail-url]: abhimrann@gmail.com
